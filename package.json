@@ -1,0 +1,26 @@
+{
+    "name": "com.rastudio.transparentoverlay",
+    "version": "1.0.0",
+    "displayName": "Transparent Overlay",
+    "description": "A package for creating and managing transparent windows in Unity applications.",
+    "unity": "2021.3",
+    "dependencies": {},
+    "keywords": [
+      "window",
+      "transparent",
+      "overlay",
+      "click-through"
+    ],
+    "author": {
+      "name": "RAStudio",
+      "email": "contact@ra-studio.net",
+      "url": "https://www.ra-studio.net"
+    },
+    "samples": [
+      {
+        "displayName": "Basic Usage",
+        "description": "Contains a basic scene demonstrating the usage of Transparent Overlay",
+        "path": "Samples~/BasicUsage"
+      }
+    ]
+  }
