@@ -14,3 +14,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Windows implementation
 - Placeholder implementations for macOS and Linux
 - Support for both standard Unity UI and UI Toolkit
+- TransparentWindowController for easy integration in Unity scenes
+- Example usage script for toggling click-through behavior

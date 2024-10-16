@@ -1,26 +1,28 @@
 {
-    "name": "com.rastudio.transparentoverlay",
-    "version": "1.0.0",
-    "displayName": "Transparent Overlay",
-    "description": "A package for creating and managing transparent windows in Unity applications.",
-    "unity": "2021.3",
-    "dependencies": {},
-    "keywords": [
-      "window",
-      "transparent",
-      "overlay",
-      "click-through"
-    ],
-    "author": {
-      "name": "RAStudio",
-      "email": "contact@ra-studio.net",
-      "url": "https://www.ra-studio.net"
-    },
-    "samples": [
-      {
-        "displayName": "Basic Usage",
-        "description": "Contains a basic scene demonstrating the usage of Transparent Overlay",
-        "path": "Samples~/BasicUsage"
-      }
-    ]
-  }
+  "name": "net.ra-studio.transparentoverlay",
+  "version": "1.0.0",
+  "displayName": "Transparent Overlay",
+  "description": "A package for creating and managing transparent windows in Unity applications.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/RA-StudioX/TransparentOverlay/blob/main/README.md",
+  "changelogUrl": "https://github.com/RA-StudioX/TransparentOverlay/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/RA-StudioX/TransparentOverlay/blob/main/LICENSE.md",
+  "dependencies": {},
+  "keywords": [
+    "window",
+    "transparent",
+    "overlay",
+    "click-through"
+  ],
+  "author": {
+    "name": "Rafael Azriaiev",
+    "email": "contact@ra-studio.net",
+    "url": "https://ra-studio.net"
+  },
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Contains a sample scene demonstrating basic usage of the Transparent Overlay",
+      "path": "Samples~/BasicUsage"
+    }
+}

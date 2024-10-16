@@ -1,0 +1,16 @@
+{
+    "name": "RAStudio.TransparentOverlay.Tests",
+    "rootNamespace": "RAStudio.TransparentOverlay.Tests",
+    "references": [
+        "GUID:c116f143c728cab428aa25d5af198837"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
