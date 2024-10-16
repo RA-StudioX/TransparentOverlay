@@ -29,7 +29,7 @@ namespace RAStudio.TransparentOverlay
 
         private TransparentWindowManager() { }
 
-        public void Initialize(WindowMode windowMode = WindowMode.SingleWindow, UIMode uiMode = UIMode.Standard)
+        public void Initialize(WindowMode windowMode = WindowMode.FullScreen, UIMode uiMode = UIMode.UIToolkit)
         {
                 #if !UNITY_EDITOR
 #if UNITY_STANDALONE_WIN

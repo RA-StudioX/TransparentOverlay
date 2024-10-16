@@ -34,8 +34,11 @@ To install this package, follow these steps:
 
 ## Important Note
 
+- If using URP need to switch HDR off in urp pipline asset.
+- UIMode.UIToolkit will make ui elements interactable including canvas
+- UIMode.Standard uses Physics2D to interact with elements.
 - The transparent window functionality is designed to work only in built applications, not within the Unity Editor. This is to prevent unexpected behavior when modifying window properties in the Editor environment.
-- To use Transparent window with ui toolkit need to add EventSystem to the same scene
+- To use Transparent window with ui toolkit need to add EventSystem to the same scene.
 - There is convenient sample scene and script for you.
 
 ## Usage

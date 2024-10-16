@@ -24,14 +24,14 @@ namespace RAStudio.TransparentOverlay
 
         private void Start()
         {
-            #if !UNITY_EDITOR
+#if !UNITY_EDITOR
             windowManager = TransparentWindowManager.Instance;
             windowManager.Initialize(windowMode, uiMode);
 
             Application.runInBackground = true;
             Camera.main.clearFlags = CameraClearFlags.SolidColor;
-            Camera.main.backgroundColor = Color.clear;
-            #endif
+            Camera.main.backgroundColor = new Color(0, 0, 0, 0);
+#endif
         }
 
         private void Update()
@@ -54,10 +54,10 @@ namespace RAStudio.TransparentOverlay
         /// <param name="newMode">The new UI mode to set.</param>
         public void SwitchUIMode(UIMode newMode)
         {
-            #if !UNITY_EDITOR
             uiMode = newMode;
+#if !UNITY_EDITOR
             windowManager.SetUIMode(uiMode);
-            #endif
+#endif
         }
     }
 }
