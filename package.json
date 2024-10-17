@@ -1,6 +1,6 @@
 {
   "name": "net.ra-studio.transparentoverlay",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "Transparent Overlay",
   "description": "A package for creating and managing transparent windows in Unity applications.",
   "unity": "2021.3",
